@@ -1,0 +1,27 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ActiveRuntime="MS.NET" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="proyectofinal\Princi.cs">
+    <Files>
+      <File FileName="proyectofinal\Ingreso.cs" Line="24" Column="1" />
+      <File FileName="proyectofinal\Pruebas.cs" Line="28" Column="1" />
+      <File FileName="proyectofinal\Princi.cs" Line="17" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True">
+          <Node name="proyectofinal" expanded="True">
+            <Node name="proyectofinal" expanded="True">
+              <Node name="Pruebas" expanded="True">
+                <Node name="TestCase" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

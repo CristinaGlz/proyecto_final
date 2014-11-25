@@ -1,0 +1,8 @@
+C:\Users\Cristina\Documents\Projects\proyectofinal\proyectofinal\obj\Debug\proyectofinal.csprojResolveAssemblyReference.cache
+C:\Users\Cristina\Documents\Projects\proyectofinal\proyectofinal\bin\Debug\proyectofinal.pdb
+C:\Users\Cristina\Documents\Projects\proyectofinal\proyectofinal\bin\Debug\nunit.framework.dll
+C:\Users\Cristina\Documents\Projects\proyectofinal\proyectofinal\bin\Debug\nunit.framework.xml
+C:\Users\Cristina\Documents\Projects\proyectofinal\proyectofinal\obj\Debug\proyectofinal.pdb
+C:\Users\Cristina\Documents\Projects\proyectofinal\proyectofinal\bin\Debug\proyectofinal.dll.config
+C:\Users\Cristina\Documents\Projects\proyectofinal\proyectofinal\bin\Debug\proyectofinal.dll
+C:\Users\Cristina\Documents\Projects\proyectofinal\proyectofinal\obj\Debug\proyectofinal.dll

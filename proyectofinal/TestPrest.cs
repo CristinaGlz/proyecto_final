@@ -1,8 +1,7 @@
-namespace proyectofinal
-{
 using System;
 using NUnit.Framework;
-
+namespace proyectofinal
+{
 
    	[TestFixture ()]
    

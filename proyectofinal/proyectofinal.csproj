@@ -9,7 +9,7 @@
 	<AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>proyectofinal</RootNamespace>
     <AssemblyName>proyectofinal</AssemblyName>
-	<TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+	<TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -48,9 +48,6 @@
 	<Compile Include="CalculaPrestacionesOrd.cs" />
 	<Compile Include="Aguinaldo.cs" />
 	<Compile Include="SalarioBaseCotizacion.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -9,5 +9,5 @@ install:
 
 
 script:
-  - xbuild TestProject2.sln
-  - nunit-console TestProject2/bin/Debug/TestProject2.dll
+  - xbuild proyectofinal.sln
+  - nunit-console proyectofinal/bin/Debug/proyectofinal.dll

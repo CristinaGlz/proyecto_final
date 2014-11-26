@@ -1,10 +1,9 @@
+namespace proyectofinal
+{
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
-namespace Prestaciones
-{
     public class CalculaPrestaciones
     {
         public float SalarioSemanal(float s)

@@ -44,8 +44,11 @@
   </ItemGroup>
   <ItemGroup>
 	<Compile Include="Pruebas.cs" />
+	<Compile Include="TestPrest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" /> 
 	<Compile Include="Ingreso.cs" />
+	<Compile Include="CalculaPrestacionesExt.cs" />
+	<Compile Include="CalculaPrestacionesOrd.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -1,10 +1,11 @@
+
+namespace proyectofinal
+{
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Prestaciones
-{
     public class CalculaPrestOrd
     {
         public double SalarioSemanal(double s)

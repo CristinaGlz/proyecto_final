@@ -1,48 +1,56 @@
-using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-namespace Prestaciones
+namespace proyectofinal
 {
-    [TestClass]
+using System;
+using NUnit.Framework;
+
+
+   	[TestFixture ()]
    
         public class TestPrest
     {
-        CalculaPrestOrd calOrd = new CalculaPrestOrd();
-        CalculaPrestExt calExt = new CalculaPrestExt();
-        [TestMethod]
+        [Test()]
         public void TestSalarioSemanal()
         {
+		CalculaPrestOrd calOrd = new CalculaPrestOrd();
             Assert.AreEqual(700, calOrd.SalarioSemanal(100));
         }
-        [TestMethod]
+        [Test()]
         public void TestSalarioQuincenal()
         {
+		CalculaPrestOrd calOrd = new CalculaPrestOrd();
             Assert.AreEqual(1500, calOrd.SalarioQuincenal(100));
         }
-        [TestMethod]
+        [Test()]
         public void TestSalarioMensual()
         {
+		CalculaPrestOrd calOrd = new CalculaPrestOrd();
             Assert.AreEqual(3000, calOrd.SalarioMensual(100));
         }
-        [TestMethod]
+        [Test()]
         public void TestPrimaVac()
         {
+		CalculaPrestOrd calOrd = new CalculaPrestOrd();
             Assert.AreEqual(150, calOrd.Primavacacional(100));
         }
-        [TestMethod]
+        [Test()]
         public void TestAguinaldo()
         {
+		CalculaPrestOrd calOrd = new CalculaPrestOrd();
             Assert.AreEqual(1500, calOrd.Aguinaldo(1,100));
         }
-        [TestMethod]
+        [Test()]
         public void TestTiempoExtra()
         {
-            Assert.AreEqual(12.5, calExt.tiempoExtraordinario(9, 100));
+		
+        CalculaPrestExt calExt = new CalculaPrestExt();
+            Assert.AreEqual(12.0, calExt.tiempoExtraordinario(9, 100));
         }
-        [TestMethod]
+        [Test()]
         public void TestTiempoExtra1()
         {
-            Assert.AreEqual(258.5, calExt.tiempoExtraordinario(10, 100));
+		
+        CalculaPrestExt calExt = new CalculaPrestExt();
+            Assert.AreEqual(252.0, calExt.tiempoExtraordinario(10, 100));
         }
     }
 }

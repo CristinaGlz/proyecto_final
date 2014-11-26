@@ -49,6 +49,8 @@
 	<Compile Include="Ingreso.cs" />
 	<Compile Include="CalculaPrestacionesExt.cs" />
 	<Compile Include="CalculaPrestacionesOrd.cs" />
+	<Compile Include="Aguinaldo.cs" />
+	<Compile Include="SalarioBaseCotizacion.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

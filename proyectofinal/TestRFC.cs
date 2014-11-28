@@ -12,6 +12,11 @@ namespace proyectofinal
             Assert.AreEqual("BECA700205XX0", rfc.obtenRFC("BERNAL", "CAMPOS", "ANGEL", "05 de febrero de 1970"));
 
         }
+        [Test ()]
+        public void testObtenRFC1(){
+            Assert.AreEqual("BECA700205XX0", rfc.obtenRFC("CRISTINA", "GONZALEZ", "MOREIRA", "03 de agosto de 1992"));
+
+        }
        
     }
 }

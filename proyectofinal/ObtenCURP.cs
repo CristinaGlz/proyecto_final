@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UnitTestProject3
+namespace proyectofinal
 {
     class ObtenCURP
     {
@@ -57,7 +57,7 @@ namespace UnitTestProject3
         {
             cuatroNom = nombre.Substring(0, 1);
             Boolean pasa = true;
-            int j = 1;
+            int j = 0;
             while (pasa)
             {
                 j++;
@@ -68,7 +68,13 @@ namespace UnitTestProject3
         }
         public void obtenFecha(String f)
         {
-            fecha = f;
+           String [] split = f.Split(new Char [] {','});
+			String se=split[0];
+			char[] c = new char[2];
+				c[0] = se[2];
+				c[1] = se[3];
+			string x = new string(c); 	
+            fecha = x+split[1]+split[2];
         }
         public void obtenEntidad(String estado)
         {

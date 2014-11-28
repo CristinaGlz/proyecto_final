@@ -1,13 +1,13 @@
 using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
-namespace RFC
+namespace proyectofinal
 {
-    [TestClass]
+  [TestFixture ()]
     public class TestRFC
     {
         ObtenRFC rfc = new ObtenRFC();
-        [TestMethod]
+        [Test ()]
         public void testObtenRFC(){
             Assert.AreEqual("BECA700205XX0", rfc.obtenRFC("BERNAL", "CAMPOS", "ANGEL", "05 de febrero de 1970"));
 
